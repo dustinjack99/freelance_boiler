@@ -4,7 +4,7 @@
   "description": "Professional website for Glacier Events",
   "main": "./public/index.html",
   "scripts": {
-    "start": "webpack serve --open",
+    "start": "webpack serve --hot",
     "server": "node server.js",
     "build": "webpack",
     "watch": "webpack --watch",
@@ -26,7 +26,9 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.0",
     "express": "^4.17.1",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "react-hot-loader": "^4.13.0",
     "sass-loader": "^10.0.4",
     "style-loader": "^2.0.0",
     "webpack": "^5.3.2",
